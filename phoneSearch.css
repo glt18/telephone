@@ -1,0 +1,43 @@
+.containner {
+	width: 25%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+}
+.inputNum {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #3366CC;
+	background-color: #EFF1F3;
+	margin-bottom: 10px;
+}
+.inputNum span {
+	width: 30%;
+	display: inline-block;
+	border-right: 1px solid #3366CC;
+}
+.inputNum form  {
+	display: inline-block;
+}
+.inputNum form .num {
+	display: inline-block;
+	width: 50%;
+}
+.inputNum form .btn {
+	color: #ffffff;
+	background-color: #6699CC;
+	box-shadow: none;
+}	
+table {
+	width: 100%;
+	border: 1px solid #3366CC;
+	border-collapse: collapse;
+	background-color: #EFF1F3;
+	line-height: 20px;
+}
+table td {
+	width: 50%;
+	border: 1px solid #3366CC;
+}

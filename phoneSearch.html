@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>电话归属地查询</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="phoneSearch.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="phoneSearch.js"></script>
+</head>
+<body>
+	<div class="containner">
+		<span>手机号码归属地在线查询</span><hr>
+		<div class="inputNum">
+			<span>手机号码(段)</span>
+			<form>
+				<input type="text" id="phoneNum" class="num">
+				<input type="button" onclick="search()" value="查询"></input>
+			</form>
+		</div>
+		<table cellspacing="0">
+			<tr>
+				<td colspan="2" style="background-color: #6699CC">++查询结果++</td>
+			</tr>
+			<tr>
+				<td>你查询的手机号码段</td>
+				<td id="phoneNumber"></td>
+			</tr>
+			<tr>
+				<td>卡号归属地</td>
+				<td id="place"></td>
+			</tr>
+			<tr>
+				<td>卡&nbsp;类&nbsp;型</td>
+				<td id="cardType"></td>
+			</tr>
+			<tr>
+				<td>区&nbsp;号</td>
+				<td id="areaCode"></td>
+			</tr>
+			<tr>
+				<td>公&nbsp;司</td>
+				<td id="company"></td>
+			</tr>
+		</table>
+		<div id="myDiv"></div>
+	</div>
+</body>
+</html>
